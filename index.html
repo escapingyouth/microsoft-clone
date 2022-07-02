@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="description" content="A clone of the microsoft homepage" />
+		<meta name="author" content="Michael Appiah" />
+		<title>Microsoft Clone</title>
+		<link
+			rel="stylesheet"
+			href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+		/>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div class="container">
+			<!-- Navbar -->
+			<nav class="navbar-desktop">
+				<img src="images/logo.png" alt="Microsoft Logo" class="logo" />
+				<ul class="main-menu">
+					<li>
+						<a href="#">Microsoft 365</a>
+					</li>
+					<li><a href="#">Office</a></li>
+					<li><a href="#">Windows</a></li>
+					<li><a href="#">Surface</a></li>
+					<li><a href="#">Xbox</a></li>
+					<li><a href="#">Deals</a></li>
+					<li><a href="#">Support</a></li>
+				</ul>
+				<ul class="right-menu">
+					<li class="dropdown-btn">
+						<a href="#">All Microsoft</a>
+						<img src="svgs/down-arrow.svg" alt="down arrow" />
+					</li>
+					<li>
+						<a href="#"
+							><img src="svgs/search.svg" class="search-icon" alt="search icon"
+						/></a>
+					</li>
+					<li>
+						<a href="#"
+							><img src="svgs/cart.svg" class="cart-icon" alt="cart icon"
+						/></a>
+					</li>
+					<li>
+						<a href="#"
+							><img
+								src="svgs/profile.svg"
+								class="profile-icon"
+								alt="profile icon"
+						/></a>
+					</li>
+				</ul>
+			</nav>
+			<nav class="navbar-mobile">
+				<div>
+					<button class="hamburger">
+						<span class="bar bar-one"></span>
+						<span class="bar bar-two"></span>
+						<span class="bar bar-three"></span>
+					</button>
+					<a href="#"
+						><img src="svgs/search.svg" class="search-icon" alt="search icon"
+					/></a>
+				</div>
+				<img src="images/logo.png" alt="Microsoft Logo" class="logo" />
+				<div class="right-menu">
+					<a href="#"
+						><img src="svgs/cart.svg" class="cart-icon" alt="cart icon"
+					/></a>
+					<a href="#"
+						><img
+							src="svgs/profile.svg"
+							class="profile-icon"
+							alt="profile icon"
+					/></a>
+				</div>
+			</nav>
+			<!-- dropdown -->
+			<div class="dropdown-container">
+				<nav>
+					<ul>
+						<h2>Software</h2>
+						<li><a href="#">Windows Apps</a></li>
+						<li><a href="#">OneDrive</a></li>
+						<li><a href="#">Outlook</a></li>
+						<li><a href="#">Skype</a></li>
+						<li><a href="#">OneNote</a></li>
+						<li><a href="#">Microsoft Teams</a></li>
+						<li><a href="#">Microsoft Edge</a></li>
+					</ul>
+					<ul>
+						<h2>PC &amp; devices</h2>
+						<li><a href="#">Computers</a></li>
+						<li><a href="#">Shop Xbox</a></li>
+						<li><a href="#">Accessories</a></li>
+						<li><a href="#">VR &amp; mixed reality</a></li>
+						<li><a href="#">Phones</a></li>
+					</ul>
+					<ul>
+						<h2>Entertainment</h2>
+						<li><a href="#">Xbox Game Pass Ultimate</a></li>
+						<li><a href="#">PC Game Pass</a></li>
+						<li><a href="#">Xbox games</a></li>
+						<li><a href="#">Windoes digital games</a></li>
+						<li><a href="#">Movies &amp; TV</a></li>
+					</ul>
+					<ul>
+						<h2>Business</h2>
+						<li><a href="#">Microsoft Cloud</a></li>
+						<li><a href="#">Microsoft Security</a></li>
+						<li><a href="#">Dynamic 365</a></li>
+						<li><a href="#">Microsoft 365 for business</a></li>
+						<li><a href="#">Microsoft Power Platform</a></li>
+						<li><a href="#">Windows 365</a></li>
+						<li><a href="#">Microsoft Industry</a></li>
+						<li><a href="#">Small Business</a></li>
+					</ul>
+					<ul>
+						<h2>Developer &amp; IT</h2>
+						<li><a href="#">Azure</a></li>
+						<li><a href="#">Developer Center</a></li>
+						<li><a href="#">Documentation</a></li>
+						<li><a href="#">Microsoft Learn</a></li>
+						<li><a href="#">Microsoft Tech Commmunity</a></li>
+						<li><a href="#">Azure Marketplace</a></li>
+						<li><a href="#">AppSource</a></li>
+						<li><a href="#">Visual Studio</a></li>
+					</ul>
+					<ul>
+						<h2>Other</h2>
+						<li><a href="#">Microsoft Rewards</a></li>
+						<li><a href="#">Free downloads &amp; security</a></li>
+						<li><a href="#">Education</a></li>
+						<li><a href="#">Virtual workshops and training</a></li>
+						<li><a href="#">Gift cards</a></li>
+						<li><a href="#">Gift Ideas</a></li>
+						<li><a href="#">Licensing</a></li>
+						<li><a href="#">Microsoft Experience Center</a></li>
+					</ul>
+				</nav>
+				<p class="site-map">
+					view sitemap
+					<img src="svgs/chevron-right.svg" alt="" />
+				</p>
+			</div>
+			<div class="dropdown-mobile">
+				<nav>
+					<ul>
+						<li><a href="#">Microsoft 365</a></li>
+						<li><a href="#">Office</a></li>
+						<li><a href="#">Windows</a></li>
+						<li><a href="#">Surface</a></li>
+						<li><a href="#">Xbox</a></li>
+						<li><a href="#">Deals</a></li>
+						<li><a href="#">Support</a></li>
+						<li>
+							<div class="sublist-title">
+								<a href="#">Software</a>
+								<img
+									src="svgs/down-arrow.svg"
+									alt="down arrow"
+									class="sublist-btn"
+								/>
+							</div>
+							<ul class="sublist">
+								<li><a href="#">Windows Apps</a></li>
+								<li><a href="#">OneDrive</a></li>
+								<li><a href="#">Outlook</a></li>
+								<li><a href="#">Skype</a></li>
+								<li><a href="#">OneNote</a></li>
+								<li><a href="#">Microsoft Teams</a></li>
+								<li><a href="#">Microsoft Edge</a></li>
+							</ul>
+						</li>
+						<li>
+							<div class="sublist-title">
+								<a href="#">PC &amp; devices</a>
+								<img
+									src="svgs/down-arrow.svg"
+									alt="down arrow"
+									class="sublist-btn"
+								/>
+							</div>
+							<ul class="sublist">
+								<li><a href="#">Computers</a></li>
+								<li><a href="#">Shop Xbox</a></li>
+								<li><a href="#">Accessories</a></li>
+								<li><a href="#">VR &amp; mixed reality</a></li>
+								<li><a href="#">Phones</a></li>
+							</ul>
+						</li>
+						<li>
+							<div class="sublist-title">
+								<a href="#">Entertainment</a>
+								<img
+									src="svgs/down-arrow.svg"
+									alt="down arrow"
+									class="sublist-btn"
+								/>
+							</div>
+							<ul class="sublist">
+								<li><a href="#">Xbox Game Pass Ultimate</a></li>
+								<li><a href="#">PC Game Pass</a></li>
+								<li><a href="#">Xbox games</a></li>
+								<li><a href="#">Windoes digital games</a></li>
+								<li><a href="#">Movies &amp; TV</a></li>
+							</ul>
+						</li>
+						<li>
+							<div class="sublist-title">
+								<a href="#">Business</a>
+								<img
+									src="svgs/down-arrow.svg"
+									alt="down arrow"
+									class="sublist-btn"
+								/>
+							</div>
+							<ul class="sublist">
+								<li><a href="#">Microsoft Cloud</a></li>
+								<li><a href="#">Microsoft Security</a></li>
+								<li><a href="#">Dynamic 365</a></li>
+								<li><a href="#">Microsoft 365 for business</a></li>
+								<li><a href="#">Microsoft Power Platform</a></li>
+								<li><a href="#">Windows 365</a></li>
+								<li><a href="#">Microsoft Industry</a></li>
+								<li><a href="#">Small Business</a></li>
+							</ul>
+						</li>
+						<li>
+							<div class="sublist-title">
+								<a href="#">Developer &amp; IT</a>
+								<img
+									src="svgs/down-arrow.svg"
+									alt="down arrow"
+									class="sublist-btn"
+								/>
+							</div>
+							<ul class="sublist">
+								<li><a href="#">Azure</a></li>
+								<li><a href="#">Developer Center</a></li>
+								<li><a href="#">Documentation</a></li>
+								<li><a href="#">Microsoft Learn</a></li>
+								<li><a href="#">Microsoft Tech Commmunity</a></li>
+								<li><a href="#">Azure Marketplace</a></li>
+								<li><a href="#">AppSource</a></li>
+								<li><a href="#">Visual Studio</a></li>
+							</ul>
+						</li>
+						<li>
+							<div class="sublist-title">
+								<a href="#">Other</a>
+								<img
+									src="svgs/down-arrow.svg"
+									alt="down arrow"
+									class="sublist-btn"
+								/>
+							</div>
+							<ul class="sublist">
+								<li><a href="#">Microsoft Rewards</a></li>
+								<li><a href="#">Free downloads &amp; security</a></li>
+								<li><a href="#">Education</a></li>
+								<li><a href="#">Virtual workshops and training</a></li>
+								<li><a href="#">Gift cards</a></li>
+								<li><a href="#">Gift Ideas</a></li>
+								<li><a href="#">Licensing</a></li>
+								<li><a href="#">Microsoft Experience Center</a></li>
+							</ul>
+						</li>
+						<li><a href="#">View Sitemap</a></li>
+					</ul>
+				</nav>
+			</div>
+
+			<!-- Main Header -->
+			<header>
+				<!-- Slider main container -->
+				<div class="swiper">
+					<!-- Additional required wrapper -->
+					<div class="swiper-wrapper">
+						<!-- Slides -->
+						<div class="swiper-slide">
+							<div class="showcase-one">
+								<div class="showcase-image">
+									<img
+										src="images/showcase-one-mobile.webp"
+										alt="showcase one"
+									/>
+								</div>
+								<div class="showcase-text">
+									<h2>Save on Surface</h2>
+									<p>
+										Find a great deal on select Surface devices built for all
+										the ways you create, work, play, and connect. If you have
+										questions before you buy a Surface, book a free shopping
+										appointment.
+									</p>
+									<div class="showcase-btns">
+										<a href="#" class="btn-dark"
+											><span>Shop Surface deals</span
+											><img
+												src="svgs/chevron-right.svg"
+												alt="chevron"
+												class="chevron"
+										/></a>
+
+										<a href="#" class="btn-light"
+											><span>Book an appointment</span
+											><img
+												src="svgs/chevron-right.svg"
+												alt="chevron"
+												class="chevron"
+										/></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="showcase-two">
+								<div class="showcase-image">
+									<img
+										src="images/showcase-two-mobile.webp"
+										alt="showcase two"
+									/>
+								</div>
+
+								<div class="showcase-text">
+									<h2>Microsoft 365</h2>
+									<p>
+										Premium Office apps, extra cloud storage, advanced security,
+										and more&mdash;all in one convenient subscription
+									</p>
+									<div class="showcase-btns">
+										<a href="#" class="btn-dark"
+											><span>For 1 person</span
+											><img
+												src="svgs/chevron-right.svg"
+												alt="chevron"
+												class="chevron"
+										/></a>
+
+										<a href="#" class="btn-light"
+											><span>For up to 6 people</span
+											><img
+												src="svgs/chevron-right.svg"
+												alt="chevron"
+												class="chevron"
+										/></a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						...
+					</div>
+					<!-- If we need pagination -->
+					<div class="swiper-pagination"></div>
+
+					<!-- If we need navigation buttons -->
+					<div class="swiper-button-prev">
+						<div class="swiper-icon">
+							<img src="svgs/chevron-left.svg" alt="left chevron" />
+						</div>
+					</div>
+					<div class="swiper-button-next">
+						<div class="swiper-icon">
+							<img src="svgs/chevron-right.svg" alt=" right chevron" />
+						</div>
+					</div>
+				</div>
+			</header>
+			<!-- Devices Section -->
+			<section class="devices">
+				<div class="device">
+					<img src="images/windows.png" alt="windows icon" />
+					<div class="devices-text">Choose your Microsoft 365</div>
+				</div>
+				<div class="device">
+					<img src="images/tablet.png" alt="tablet icon" />
+					<div class="devices-text">Shop Surface Devices</div>
+				</div>
+				<div class="device">
+					<img src="images/x-box.png" alt="x-box icon" />
+					<div class="devices-text">Buy Xbox games and consoles</div>
+				</div>
+				<div class="device">
+					<img src="images/windows.png" alt="windows icon" />
+					<div class="devices-text">Get Windows 11</div>
+				</div>
+				<div class="device">
+					<img src="images/pc.png" alt="pc icon" />
+					<div class="devices-text">Find your next PC</div>
+				</div>
+				<div class="device">
+					<img src="images/briefcase.png" alt="briefcase icon" />
+					<div class="devices-text">Shop Business</div>
+				</div>
+			</section>
+
+			<!-- Microsoft Products Section -->
+			<section class="products">
+				<div class="home-cards">
+					<article>
+						<picture>
+							<img
+								src="images/gamepass.jpeg"
+								class="grid-image"
+								alt="gamepass"
+							/>
+						</picture>
+						<h3>PC Game Pass</h3>
+						<p>
+							Unlock 100+ great games and EA Play, plus get your first month for
+							$1. Offer available to new subscribers only.
+						</p>
+						<div class="links">
+							<a href="#"
+								><span>Join now </span
+								><img src="svgs/chevron-right.svg" alt="chevron"
+							/></a>
+							<a href="#"
+								><span>Compare all plans</span
+								><img src="svgs/chevron-right.svg" alt="chevron"
+							/></a>
+						</div>
+					</article>
+					<article>
+						<picture>
+							<img
+								src="images/surface-laptop.jpeg"
+								class="grid-image"
+								alt="Surface Laptop Go 2"
+							/>
+						</picture>
+						<a href="#" class="new">New</a>
+						<h3>Buy Surface Laptop Go 2, get cash back</h3>
+						<p>
+							Trade in a qualifying used device and get up to $500 cash back
+							when you purchase a Surface Laptop Go 2.
+						</p>
+						<a href="#"
+							><span>Shop Surface Laptop Go 2 </span
+							><img src="svgs/chevron-right.svg" alt="chevron"
+						/></a>
+					</article>
+					<article>
+						<picture>
+							<img
+								src="images/surface-pro.jpeg"
+								class="grid-image"
+								alt="Surface Pro 8"
+							/>
+						</picture>
+						<h3>Surface Pro 8</h3>
+						<p>
+							Do more with a larger 13-inch touchscreen, faster connections, and
+							extra speed.
+						</p>
+						<div class="links">
+							<a href="#"
+								><span>Shop now</span
+								><img src="svgs/chevron-right.svg" alt="chevron"
+							/></a>
+							<a href="#"
+								><span>Shop for business</span
+								><img src="svgs/chevron-right.svg" alt="chevron"
+							/></a>
+						</div>
+					</article>
+					<article>
+						<picture>
+							<img
+								src="images/gamepad.jpeg"
+								class="grid-image"
+								alt="X-box controller"
+							/>
+						</picture>
+						<h3>Make it yours</h3>
+						<p>
+							Customize the Xbox Wireless Controller with Xbox Design Lab and
+							show your Pride with this bold design. Play on console, PC, and
+							mobile.*
+						</p>
+
+						<a href="#"
+							><span>Design yours</span
+							><img src="svgs/chevron-right.svg" alt="chevron"
+						/></a>
+					</article>
+				</div>
+			</section>
+
+			<!-- Xbox section -->
+			<section class="xbox">
+				<div class="xbox-image">
+					<img src="images/xbox-mobile.webp" alt="xbox" />
+				</div>
+				<div class="xbox-text">
+					<h2>Power your dreams</h2>
+					<p>
+						Experience a new era in next-gen performance with Xbox Series X and
+						Xbox Series S
+					</p>
+					<div class="xbox-btns">
+						<a href="#" class="btn-dark"
+							><span>Xbox Series X</span
+							><img src="svgs/chevron-right.svg" alt="chevron" class="chevron"
+						/></a>
+
+						<a href="#" class="btn-light"
+							><span>Xbox Series S</span
+							><img src="svgs/chevron-right.svg" alt="chevron" class="chevron"
+						/></a>
+					</div>
+				</div>
+			</section>
+
+			<!-- Microsoft Business Section -->
+			<section class="microsoft-business">
+				<h2>For Business</h2>
+				<div class="home-cards">
+					<article>
+						<picture>
+							<img
+								src="images/surface-pro-business.jpeg"
+								class="grid-image"
+								alt="Surface Pro 8 for business"
+							/>
+						</picture>
+						<h3>Up to 15% off select Surface Pro 8 for Business</h3>
+						<p>
+							Get unprecedented levels of performance and versatility on a
+							13-inch screen. Available with Windows 11.
+						</p>
+						<div class="links">
+							<a href="#"
+								><span>Shop now </span
+								><img src="svgs/chevron-right.svg" alt="chevron"
+							/></a>
+							<a href="#"
+								><span>Shop Enterprise </span
+								><img src="svgs/chevron-right.svg" alt="chevron"
+							/></a>
+						</div>
+					</article>
+					<article>
+						<picture>
+							<img
+								src="images/microsoft-teams.jpeg"
+								class="grid-image"
+								alt="Microsoft Teams"
+							/>
+						</picture>
+						<h3>Get Microsoft Teams for free</h3>
+						<p>
+							Online meetings, chat, and shared cloud storage—all in one place.
+						</p>
+						<a href="#"
+							><span>Sign up for free </span
+							><img src="svgs/chevron-right.svg" alt="chevron"
+						/></a>
+					</article>
+					<article>
+						<picture>
+							<img
+								src="images/microsoft-365.jpeg"
+								class="grid-image"
+								alt="Microsoft 365 for business"
+							/>
+						</picture>
+						<h3>Microsoft 365 for business</h3>
+						<p>
+							Stay a step ahead with powerful apps for productivity, connection,
+							and security. Make an appointment with an expert to determine the
+							best solution for your business.
+						</p>
+						<div class="links">
+							<a href="#"
+								><span>Shop now</span
+								><img src="svgs/chevron-right.svg" alt="chevron"
+							/></a>
+							<a href="#"
+								><span>Book a consultation</span
+								><img src="svgs/chevron-right.svg" alt="chevron"
+							/></a>
+						</div>
+					</article>
+					<article>
+						<picture>
+							<img
+								src="images/microsoft-business.jpeg"
+								class="grid-image"
+								alt="Microsoft small business"
+							/>
+						</picture>
+						<h3>Top trends that will drive Small Business</h3>
+						<p>
+							Join us for a free virtual event on June 22, as award-winning
+							entrepreneur Natalie Cofield discusses small business challenges
+							and strategies to overcome them.
+						</p>
+
+						<a href="#"
+							><span>Register now</span
+							><img src="svgs/chevron-right.svg" alt="chevron"
+						/></a>
+					</article>
+				</div>
+			</section>
+
+			<!-- Microsoft Communities Section -->
+			<section class="communities">
+				<!-- Slider main container -->
+				<div class="swiper">
+					<!-- Additional required wrapper -->
+					<div class="swiper-wrapper">
+						<!-- Slides -->
+						<div class="swiper-slide">
+							<div class="showcase-one">
+								<div class="showcase-image">
+									<img
+										src="images/black-rights-mobile.webp"
+										alt="showcase one"
+									/>
+								</div>
+								<div class="showcase-text">
+									<h2>
+										Partnering with Black and African American entrepreneurs
+									</h2>
+									<p>
+										See how our Racial Equity Initiative, launched 2 years ago,
+										seeks to address racial injustice and inequity through
+										multiyear commitments
+									</p>
+									<a href="" class="btn-dark"
+										><span>Learn more</span
+										><img
+											src="svgs/chevron-right.svg"
+											alt=" chevron"
+											class="chevron"
+									/></a>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="showcase-two">
+								<div class="showcase-image">
+									<img src="images/pride.jfif" alt="showcase one" />
+								</div>
+								<div class="showcase-text">
+									<h2>Pride is for everyone, everywhere</h2>
+									<p>
+										Join LGBTQIA+ communities at Microsoft in our actions and
+										calls for justice and equity across all borders-be they
+										geographical, societal or ideological
+									</p>
+									<a href="" class="btn-dark"
+										><span>Learn more</span
+										><img
+											src="svgs/chevron-right.svg"
+											alt="chevron"
+											class="chevron"
+									/></a>
+								</div>
+							</div>
+						</div>
+
+						...
+					</div>
+					<!-- If we need pagination -->
+					<div class="swiper-pagination"></div>
+
+					<!-- If we need navigation buttons -->
+					<div class="swiper-button-prev">
+						<div class="swiper-icon">
+							<img src="svgs/chevron-left.svg" alt="left chevron" />
+						</div>
+					</div>
+					<div class="swiper-button-next">
+						<div class="swiper-icon">
+							<img src="svgs/chevron-right.svg" alt=" right chevron" />
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- Connect with us section -->
+			<section class="connect">
+				<div>
+					<span>Follow Microsoft</span>
+					<a href="#"><img src="svgs/facebook.svg" alt="facebook icon" /></a>
+					<a href="#"><img src="svgs/twitter.svg" alt="twitter icon" /></a>
+					<a href="#"><img src="svgs/linkedin.svg" alt="linkedin icon" /></a>
+				</div>
+			</section>
+		</div>
+		<!-- Footer  -->
+		<footer>
+			<div>
+				<div class="links-container">
+					<ul class="footer-links">
+						<li>What's new</li>
+						<li><a href="#">Surface Pro 8</a></li>
+						<li><a href="#">Surface Laptop Studio</a></li>
+						<li><a href="#">Surface Pro X</a></li>
+						<li><a href="#">Surface Go 3</a></li>
+						<li><a href="#">Surface Duo 2</a></li>
+						<li><a href="#">Surface Pro 7+</a></li>
+						<li><a href="#">Windows 11 apps</a></li>
+						<li><a href="#">HoloLens 2</a></li>
+					</ul>
+					<ul class="footer-links">
+						<li>Microsoft Store</li>
+						<li><a href="#">Account profile</a></li>
+						<li><a href="#">Download Center</a></li>
+						<li><a href="#">Microsoft Store support</a></li>
+						<li><a href="#">Returns</a></li>
+						<li><a href="#">Order tracking</a></li>
+						<li><a href="#">Virtual workshops and training</a></li>
+						<li><a href="#">Microsoft Store Promise</a></li>
+						<li><a href="#">Flexible Payments</a></li>
+					</ul>
+					<ul class="footer-links">
+						<li>Education</li>
+						<li><a href="#">Microsoft in education</a></li>
+						<li><a href="#">Devices for education</a></li>
+						<li><a href="#">Microsoft Teams for Education</a></li>
+						<li><a href="#">Microsoft 365 Education</a></li>
+						<li><a href="#">Education consultation appointment</a></li>
+						<li><a href="#">Education training and development</a></li>
+						<li><a href="#">Deals for students and parents</a></li>
+						<li><a href="#">Azure for students</a></li>
+						<li><a href="#">Flexible Payments</a></li>
+					</ul>
+					<ul class="footer-links">
+						<li>Business</li>
+						<li><a href="#">Microsoft Cloud</a></li>
+						<li><a href="#">Microsoft Security</a></li>
+						<li><a href="#">Azure</a></li>
+						<li><a href="#">Dynamics 365</a></li>
+						<li><a href="#">Microsoft 365</a></li>
+						<li><a href="#">Microsoft Advertising</a></li>
+						<li><a href="#">Microsoft Teams</a></li>
+						<li><a href="#">Small Business</a></li>
+					</ul>
+					<ul class="footer-links">
+						<li>Developer & IT</li>
+						<li><a href="#">Developer Center</a></li>
+						<li><a href="#">Documentation</a></li>
+						<li><a href="#">Microsoft Learn</a></li>
+						<li><a href="#">Microsoft Tech Community</a></li>
+						<li><a href="#">Azure Marketplace</a></li>
+						<li><a href="#">AppSource</a></li>
+						<li><a href="#">Microsoft Power Platform</a></li>
+						<li><a href="#">Visual Studio</a></li>
+					</ul>
+					<ul class="footer-links">
+						<li>Company</li>
+						<li><a href="#">Careers</a></li>
+						<li><a href="#">About Microsoft</a></li>
+						<li><a href="#">Company News</a></li>
+						<li><a href="#">Privacy at Microsoft</a></li>
+						<li><a href="#">Investors</a></li>
+						<li><a href="#">Diversity and inclusion</a></li>
+						<li><a href="#">Accesibility</a></li>
+						<li><a href="#">Sustainability</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="footer-end">
+				<div>
+					<img src="svgs/globe.svg" alt="globe icon" />
+					<span> English(United States) </span>
+				</div>
+
+				<ul class="footer-end-links">
+					<li><a href="#">Sitemap</a></li>
+					<li><a href="#">Contact Microsoft</a></li>
+					<li><a href="#">Privacy</a></li>
+					<li><a href="#">Terms of use</a></li>
+					<li><a href="#">Trademarks</a></li>
+					<li><a href="#">Safety & eco</a></li>
+					<li><a href="#">About our ads</a></li>
+					<li><a href="#">Safety & eco</a></li>
+					<li><a href="#">&copy;Microsoft 2022</a></li>
+				</ul>
+			</div>
+		</footer>
+
+		<!-- Script Files -->
+		<script type="module" src="swiper-script.js"></script>
+		<script defer src="script.js"></script>
+	</body>
+</html>
